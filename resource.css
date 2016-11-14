@@ -1,0 +1,44 @@
+/*header*/
+.top ul li .resource {
+	color: #fff;
+	background: #0dbfdd;
+}
+.top ul li .resource:hover {
+	color: #fff;
+}
+.banner {
+	min-height: 800px;
+	background-image: url(../img/resource-bg.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: 100% auto;
+			background-size: 100% auto;
+}
+.container {
+	width: 100%;
+	background: #f4f4f4;
+}
+.container h1 {
+	width: 100%;
+	padding: 53px 0 8px 0;
+    text-align: center;
+    color: #0dbfdd;
+}
+.content {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	background: #0dbfdd;
+}
+.content div {
+	background: #0dbfdd;
+}
+.content div a {
+	display: block;
+	width: 940px;
+	padding: 10px;
+	color: #e2f8ff;
+}
+.content div a:hover {
+	background: #0cb3d0;
+}
