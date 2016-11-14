@@ -1,0 +1,88 @@
+/*header*/
+.top ul li .about {
+	color: #fff;
+	background: #0dbfdd;
+}
+.top ul li .about:hover {
+	color: #fff;
+}
+.banner {
+	min-height: 800px;
+	background-image: url(../img/about-bg.jpg);	
+	background-attachment: fixed;
+	-webkit-background-size: 100% auto;
+			background-size: 100% auto;
+}
+/*content*/
+.content {
+	width: 100%;
+	margin-top: 53px;
+	overflow: hidden;
+}
+.introduce>h1 {
+	width: 100%;
+	text-align: center;
+	color: #0dbfdd;
+}
+.introduce>p {
+	max-width: 48%;
+	line-height: 1.75;
+	margin: 8px auto 53px;
+	text-align: center;
+	font-size: 16px;
+}
+.introduce span {
+	font-weight: bold;
+}
+.member {
+	position: relative;
+	width: 100%;
+	height: 545px;
+	text-align: center;
+	background: #0dbfdd;
+}
+.member h1 {
+	max-width: 100%;
+	padding: 40px 0 20px; 
+	font-size: 25px;
+	color: #fff;
+}
+.member .img {
+	width: 960px;
+    height: 55%;
+    margin: 0 auto;
+}
+.member .img div {
+	float: left;
+	width: 160px;
+	font-size: 14px;
+	color: #e2f8ff;
+}
+.member .img h4 {
+	margin-top: 2px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.member .img .work {
+	width: 46%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 12px;
+    color: #e2f8ff;
+}
+.member a {
+	position: absolute;
+	left: 43.66666666666%;
+	bottom: 20px;
+	margin-bottom: 30px;
+	padding: 10px 30px;
+	border: 1px solid  #fff;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #e2f8ff;
+}
+.member a:hover {
+	background: #0cb3d0;
+}
+

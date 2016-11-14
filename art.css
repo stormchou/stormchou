@@ -1,0 +1,15 @@
+/*header*/
+.top ul li .art {
+	color: #fff;
+	background: #0dbfdd;
+}
+.top ul li .art:hover {
+	color: #fff;
+}
+.banner {
+	min-height: 800px;
+	background-image: url(../img/art-bg.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: 100% auto;
+			background-size: 100% auto;
+}
