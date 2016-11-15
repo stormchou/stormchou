@@ -6,12 +6,27 @@
 .top ul li .about:hover {
 	color: #fff;
 }
-.banner {
-	min-height: 800px;
-	background-image: url(../img/about-bg.jpg);	
-	background-attachment: fixed;
+.banner1 {
+    width: 90%;
+	min-height: 700px;
+	margin: 0 auto;
+	background-image: url(../img/about-bg1.jpg);
 	-webkit-background-size: 100% auto;
 			background-size: 100% auto;
+}
+.banner2 {
+    width: 90%;
+	min-height: 728px;
+	margin: 0 auto;
+	background-image: url(../img/about-bg2.jpg);
+	-webkit-background-size: 100% auto;
+			background-size: 100% auto;
+}
+.line {
+    width: 90%;
+	height: 15px;
+	margin: 0 auto;
+	background: #0dbfdd;
 }
 /*content*/
 .content {
@@ -35,9 +50,9 @@
 	font-weight: bold;
 }
 .member {
-	position: relative;
-	width: 100%;
+	width: 90%;
 	height: 545px;
+    margin: 0 auto;
 	text-align: center;
 	background: #0dbfdd;
 }
@@ -70,11 +85,11 @@
     font-size: 12px;
     color: #e2f8ff;
 }
-.member a {
-	position: absolute;
-	left: 43.66666666666%;
-	bottom: 20px;
-	margin-bottom: 30px;
+.member .link {
+    width: 176px;
+	margin: 50px auto 0; 
+}
+.member .link a {
 	padding: 10px 30px;
 	border: 1px solid  #fff;
 	border-radius: 20px;
@@ -85,4 +100,3 @@
 .member a:hover {
 	background: #0cb3d0;
 }
-
