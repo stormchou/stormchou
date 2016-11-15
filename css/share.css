@@ -26,9 +26,9 @@ header {
 	font-size: 16px;
 	background: #f4f4f4;
 }
-.logo {
+.top .logo {
 	position: absolute;
-	left: 20px;
+	left: 53px;
 	top: 4px;
 	height: 52px;
 }
@@ -55,10 +55,10 @@ header {
 	font-weight: bold;
 }
 .sign-up {
-	right: 70px;
+	right: 112px;
 }
 .log-in {
-	right: 20px;
+	right: 67px;
 }
 .sign-up a,
 .log-in a {
