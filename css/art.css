@@ -1,9 +1,9 @@
 /*header*/
-.top ul li .art {
-	color: #fff;
+nav ul li .art {
+    color: #fff;
 	background: #0dbfdd;
 }
-.top ul li .art:hover {
+nav li .art:hover {
 	color: #fff;
 }
 .banner {
@@ -12,4 +12,21 @@
 	background-attachment: fixed;
 	-webkit-background-size: 100% auto;
 			background-size: 100% auto;
+}
+.container {
+	margin-top: 20px;
+	text-align: center;
+}
+.container h1 {
+	width: 100%;
+	padding: 20px 0;
+	color: #0dbfdd;
+}
+.content {
+	width: 1080px;
+	height: 2270px;
+	margin: 0 auto;
+	background-image: url(../img/art.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
 }
