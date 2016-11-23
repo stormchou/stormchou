@@ -1,0 +1,65 @@
+/*header*/
+nav ul li .resource {
+	color: #fff;
+	background: #0dbfdd;
+}
+nav li .resource:hover {
+	color: #fff;
+}
+.banner {
+	min-height: 800px;
+	background-image: url(../img/resource-bg.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: 100% auto;
+			background-size: 100% auto;
+}
+/*container*/
+.container {
+	width: 100%;
+	height: 500px;
+	background: #f4f4f4;
+}
+.container h1 {
+	width: 100%;
+	padding: 53px 0 32px 0;
+    text-align: center;
+    color: #0dbfdd;
+}
+.content {
+	width: 726px;
+	margin: 0 auto;
+}
+.content div {
+	float: left;
+}
+.content .resource3 {
+	text-align: center;
+}
+.content .resource1 a,
+.content .resource2 a,
+.content .resource3 a {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
+	background: #0dbfdd;
+	-webkit-box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #000;
+}
+.content .resource1 a {
+	width: 39%;
+	padding: 10px;
+}
+.content .resource2 a {	
+	width: 42%;
+	padding: 10px 16px;
+}
+.content .resource2 .link {
+	padding: 20px 16px;
+}
+.content .resource3 a {
+	width: 86%;
+	padding: 31px 10px;
+}
+.content a:hover {
+	background: #0cb3d0;
+}

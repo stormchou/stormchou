@@ -1,0 +1,39 @@
+body, ul, h1, h2, h3, h4, h5, h6, form, dl, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+	background: #f4f4f4;
+}
+header {
+	width: 100%;
+	height: 4px;
+	background: #0dbfdd;
+}
+.wrap {
+	width: 36%;
+	margin: 226px auto 0;
+	font-size: 1.7em;
+	text-align: center;
+    color: #a2a2a2;
+}
+.wrap .logo {
+	width: 57%;
+	margin: 0 auto;
+}
+.wrap .content-top {
+	width: 100%;
+	margin: 20px 0;
+	border-radius: 4px;
+	font-size: .87em;
+	color: #fff;
+	background: #0dbfdd;
+}
+.wrap .content-bottom {
+	width: 100%;
+	font-size: .7em;
+}
+#seconds {
+	font-weight: bold;
+}

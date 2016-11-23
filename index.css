@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+	background-image: url(../img/page.jpg);
+		-webkit-background-size: 100% auto;
+				background-size: 100% auto;
+}
+.content-wrap {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}
+.content {
+	width: 225px;
+	margin: 0 auto;
+}
+.content a {
+	padding: 5px 17px;
+	margin-right: 19px;
+	border: 2px solid  #fff;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.content .link {
+	margin: 0;
+}
+.content a:hover {
+	color: #000;
+	background: #fff;
+	font-weight: bold;
+}
